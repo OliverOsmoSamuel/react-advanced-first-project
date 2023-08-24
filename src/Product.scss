@@ -1,0 +1,30 @@
+.card {
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+  &__category {
+    margin-bottom: 8px;
+  }
+  &__title {
+    font-size: 20px;
+  }
+  &__image {
+    margin: 20px 0 20px 0;
+    max-width: 300px;
+  }
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  &__rating {
+  }
+  &__price {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  &__description {
+  }
+}

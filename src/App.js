@@ -1,10 +1,15 @@
+import { RouterProvider } from "react-router-dom";
+
+import router from "./router/router";
+
 import "./App.css";
-import Test from "./Test";
+import Nav from "./nav";
 
 function App() {
   return (
-    <div className="App">
-      <Test />
+    <div>
+      <Nav />
+      <RouterProvider router={router} />
     </div>
   );
 }

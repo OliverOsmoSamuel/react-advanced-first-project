@@ -1,0 +1,26 @@
+.card {
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+}
+.card__category {
+  margin-bottom: 8px;
+}
+.card__title {
+  font-size: 20px;
+}
+.card__image {
+  margin: 20px 0 20px 0;
+  max-width: 300px;
+}
+.card__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.card__price {
+  font-weight: bold;
+  margin-bottom: 8px;
+}/*# sourceMappingURL=Product.css.map */
